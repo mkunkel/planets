@@ -157,4 +157,34 @@ span: color blue;
 #Science-TechnologyFeatures{
   border: 1px solid gray;
   margin: 5px;
+
+.navSub {
+  background-color: #36223E;
+  list-style: none;
+  color: #533F5B;
+  font-size: 13px;
+  font-family: arial;
+  width: 160px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+ul {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 0;
+  padding-right: 0;
+}
+
+li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: -40px;
+  padding-right: -40px;
+}
+
+nav > div {
+  height: 30px;
+
 }
