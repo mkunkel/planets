@@ -1,3 +1,9 @@
+body {
+  background-color: #000;
+  background-image: url("../images/bg-top.png"), url("../images/bg-bottom.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}
 #wrap {
   width: 960px;
   margin: auto;
@@ -49,4 +55,13 @@ nav{
 }
 #tabstrip > .tab.bottom:nth-child(5){
   border-top-left-radius: 15px;
+}
+#innerwrap {
+  background-color: #FFF;
+  width: 740px;
+  margin: auto;
+}
+#innerwrap > aside > img {
+  display: block;
+  margin: auto;
 }
