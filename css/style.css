@@ -90,5 +90,7 @@ nav{
   margin-top: 8px;
   width: 99%;
   margin-left: 5px;
-
+}
+#navSub {
+  background-color: #36223E;
 }
