@@ -10,15 +10,34 @@ aside, #extra {
 a {
   text-decoration: none;
 }
+h2 {
+  padding-left: 10px;
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+  color: #01358a;
+  margin-left: 10px;
+}
 #wrap {
   width: 960px;
   margin: auto;
 }
 nav{
+  float: left;
   width: 200px;
 }
+ol {
+  font-size: 13px;
+}
+#breadcrumbs {
+  width: 97%;
+  margin-left: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #d4deeb;
+}
 #content {
-  float: right;
+  float: left;
   width: 760px;
   background-color: #d4deeb;
 }
@@ -46,9 +65,13 @@ nav{
   background-color: #e7eff9;
   height: 23px;
   display: inline-block;
-  padding: 8px 52px 0px 52px;
+  padding: 0 52px;
   margin: 0 0 2px 1px;
   box-shadow: -1px -1px 2px #acbdd5;
+}
+#tabstrip > .tab > span {
+  position: relative;
+  top: 6px;
 }
 #tabstrip > #active {
   background-color: #FFF;
@@ -70,7 +93,7 @@ nav{
 }
 #innerwrap {
   background-color: #FFF;
-  width: 740px;
+  width: 730px;
   margin: auto;
   padding-top: 1px;
   z-index: 1;
@@ -91,6 +114,12 @@ nav{
   width: 99%;
   margin-left: 5px;
 }
-#navSub {
+.navSub {
   background-color: #36223E;
+  margin-top: 0;
+  margin-bottom:0;
+  font-size: 14px;
+}
+nav > div {
+  height: 30px;
 }
