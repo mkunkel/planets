@@ -6,6 +6,7 @@ body {
 }
 aside, #extra {
   font-size: 11px;
+  color: #2b5ab3;
 }
 a {
   text-decoration: none;
@@ -67,12 +68,18 @@ ol {
   height: 23px;
   display: inline-block;
   padding: 0 52px;
-  margin: 0 0 2px 1px;
+  margin: 0 0 1px 1px;
   box-shadow: -1px -1px 2px #acbdd5;
 }
 #tabstrip > .tab > span {
   position: relative;
   top: 6px;
+}
+#tabstrip > .tab:not(#active) a {
+  color: #859dbc;
+}
+#tabstrip > .tab:not(#active) a:hover {
+  color: #043c96;
 }
 #tabstrip > #active {
   background-color: #FFF;
@@ -119,6 +126,10 @@ ol {
   font-size: 11px;
   font-weight: bold;
   text-align: center;
+}
+#more > div {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .navSub {
   background-color: #36223E;
