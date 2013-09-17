@@ -9,6 +9,7 @@ aside, #extra {
 }
 a {
   text-decoration: none;
+  color: #043c96;
 }
 h2 {
   padding-left: 10px;
@@ -93,7 +94,7 @@ ol {
 }
 #innerwrap {
   background-color: #FFF;
-  width: 730px;
+  width: 740px;
   margin: auto;
   padding-top: 1px;
   z-index: 1;
@@ -113,6 +114,11 @@ ol {
   margin-top: 8px;
   width: 99%;
   margin-left: 5px;
+}
+#more {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
 }
 .navSub {
   background-color: #36223E;
