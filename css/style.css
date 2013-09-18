@@ -10,7 +10,7 @@ aside, #extra {
 }
 a {
   text-decoration: none;
-  color: #043c96;
+  color: #45679d;
 }
 h2 {
   padding-left: 10px;
@@ -85,6 +85,7 @@ ol {
   text-align: right;
   margin-right: 10px;
   margin-bottom: 0px;
+  width: 750px;
 }
 #tabstrip > .tab {
   font-size: 12px;
@@ -93,33 +94,34 @@ ol {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #e7eff9;
-  height: 23px;
+  height: 20px;
   display: inline-block;
-  padding: 0 52px;
+  padding: 0 58px;
   margin: 0 0 1px 1px;
   box-shadow: -1px -1px 2px #acbdd5;
 }
 #tabstrip > .tab > span {
   position: relative;
-  top: 6px;
+  top: 5px;
+}
+#tabstrip > .tab.top > span {
+  position: relative;
+  top: 3px;
 }
 #tabstrip > .tab:not(#active) a {
   color: #859dbc;
 }
 #tabstrip > .tab:not(#active) a:hover {
-  color: #043c96;
+  color: #45679d;
 }
 #tabstrip > #active {
   background-color: #FFF;
   box-shadow: -1px -1px 2px #acbdd5;
-  height: 30px;
+  height: 26px;
   margin-bottom: 0;
 }
-#tabstrip > .tab.top {
-  height: 23px;
-}
 #tabstrip > .tab.bottom {
-  height: 27px;
+  height: 23px;
 }
 #tabstrip > .tab.top:nth-child(1){
   border-top-left-radius: 15px;
