@@ -3,6 +3,7 @@ body {
   background-image: url("../images/bg-top.png"), url("../images/bg-bottom.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
+  padding-bottom: 40px;
 }
 aside, #extra {
   font-size: 11px;
